@@ -1,8 +1,27 @@
+* {border:1px solid red}
+
+body {
+  font-family:helvetica;
+  font-size:22px;
+  color:seashell;
+  background-color:black;
+  text-align:center;
+  margin: 0px auto;
+}
+
 header {
   display:flex;
   height:69px;
   justify-content:space-between;
   align-items:center;
   position:fixed;
-  border:1px solid seashell;
+  width:100%;
+  border-bottom:1px solid seashell;
+}
+header img{
+  height:50px;
+  padding-left:10px;
+}
+nav a {
+  color:seashell;
 }
