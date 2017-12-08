@@ -1,4 +1,4 @@
-* {border:1px solid red}
+*{border:1px solid red}
 
 body {
   font-family:helvetica;
@@ -24,4 +24,15 @@ header img{
 }
 nav a {
   color:seashell;
+  padding-right:10px;
+}
+main {
+  width:1200px;
+  margin:0px auto;
+  padding-top:70px;
+}
+.mission .content {
+  display:flex;
+  height:700px;
+  background-image:url(images/spice-jar.jpg);
 }
