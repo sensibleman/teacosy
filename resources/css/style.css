@@ -1,4 +1,4 @@
-*{border:1px solid red}
+{border:1px solid red}
 
 body {
   font-family:helvetica;
@@ -31,8 +31,17 @@ main {
   margin:0px auto;
   padding-top:70px;
 }
-.mission .content {
+h2, h4 {
+  margin:15px;
+}
+.mission {
   display:flex;
+  justify-content:center;
+  align-items:center;
   height:700px;
   background-image:url(images/spice-jar.jpg);
+}
+.mission .content {
+background-color:black;
+width:100%;
 }
