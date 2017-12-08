@@ -1,0 +1,8 @@
+header {
+  display:flex;
+  height:69px;
+  justify-content:space-between;
+  align-items:center;
+  position:fixed;
+  border:1px solid seashell;
+}
